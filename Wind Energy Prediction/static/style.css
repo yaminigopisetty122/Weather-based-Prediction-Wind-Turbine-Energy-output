@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    background:#e7cfa5;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Header */
+.header{
+    background:#6b3e2e;
+    color:white;
+    padding:18px;
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Hero section */
+.hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:60px;
+}
+
+/* Image */
+.hero img{
+    width:500px;
+}
+
+/* Text block */
+.text{
+    width:45%;
+    line-height:1.7;
+    font-size:16px;
+    color:#3b2a20;
+}
+.text p{
+    text-align: justify;
+}
+
+/* Buttons */
+button{
+    background:#6b3e2e;
+    color:white;
+    padding:12px 22px;
+    border:none;
+    cursor:pointer;
+    margin-top:15px;
+    font-weight:bold;
+    letter-spacing:0.5px;
+}
+
+button:hover{
+    opacity:0.9;
+}
+
+/* Prediction page layout */
+.container{
+    display:flex;
+    justify-content:space-around;
+    padding:60px;
+}
+
+.left,.right{
+    width:400px;
+}
+
+/* Inputs */
+input,select{
+    width:250px;
+    padding:10px;
+    border:none;
+    border-radius:4px;
+    margin:10px 0;
+}
+
+/* Headings */
+h2,h3{
+    margin-top:20px;
+}
+
+/* Weather table styling */
+table{
+    margin-top:15px;
+}
+
+table td{
+    padding:6px 25px 6px 0;
+    font-size:18px;
+}
+.right form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.right button{
+    margin-bottom:45px;
+}
+.right h3{
+    margin-left:40px;
+}
+
+
+
